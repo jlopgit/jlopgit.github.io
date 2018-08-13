@@ -122,13 +122,28 @@ body, html{
 	color: black !important;
 }
 
+#foodieDescription{
+
+  padding-top: 50px;
+}
+
+#foodieDescription .jumbotron{
+
+	background: white;
+	padding: 30px;
+}
+
+.modal #ateOut{
+
+  display: none;
+}
+
 @media (max-width: 768px) {
 
 	.navbar{
 		width: 35%;
 	}
 }
-
 
 @media (max-width: 414px) {
 
@@ -149,5 +164,4 @@ body, html{
 		width: 130px;
 		border-radius: 20%;
 	}
-
 }
