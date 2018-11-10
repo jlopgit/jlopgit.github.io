@@ -188,7 +188,7 @@ body, html{
 		width: 60%;
 	}
 
-	#intro, #foodieDescription{
+	#intro, #foodieDescription, #favoritePodDescription{
 
 		padding-top: 70px;
 		margin-left: 20px;
@@ -202,6 +202,11 @@ body, html{
 	}
 
 	#foodieDescription .jumbotron p{
+
+		width: 300px;
+	}
+
+	#favoritePodDescription .jumbotron p{
 
 		width: 300px;
 	}

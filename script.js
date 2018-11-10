@@ -2,7 +2,7 @@ function loadFeed(){
 
   var link = document.getElementById('input').value;
 
-  //alert(link);
+  alert(link);
 
   var xhttp = new XMLHttpRequest();
 
@@ -10,7 +10,7 @@ function loadFeed(){
 
     if(this.readyState == 4 && this.status == 200){
 
-      //alert(this.responseXML);
+      alert(this.responseXML);
       createNode(this.responseXML);
     }
   }
@@ -27,7 +27,6 @@ function createNode(xml){
   var i;
 
   for(i = 0; i < item.length; i ++){
-
 
     var title = document.createTextNode(item[i].getElementsByTagName("title")[0].childNodes[0].nodeValue);
     var description = document.createTextNode(item[i].getElementsByTagName("description")[0].childNodes[0].nodeValue);
