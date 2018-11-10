@@ -134,18 +134,44 @@ body, html{
 	box-shadow: 0 4px 8px 0 gray;
 }
 
+#foodieDescription .jumbotron p{
+
+	width: 400px;
+}
+
 .modal #ateOut{
 
   display: none;
+}
+
+#favoritePodDescription{
+
+  padding-top: 100px;
+}
+
+#favoritePodDescription .jumbotron{
+
+	background: white;
+	padding: 30px;
+	box-shadow: 0 4px 8px 0 gray;
+}
+
+#favoritePodDescription .jumbotron p{
+
+	width: 400px;
 }
 
 #entries .jumbotron{
 
 	box-shadow: 0 4px 8px 0 gray;
 	background: white;
-	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#entries .jumbotron p{
+
+	width: 500px;
 }
 
 @media (max-width: 768px) {
@@ -173,6 +199,16 @@ body, html{
 
 		width: 130px;
 		border-radius: 20%;
+	}
+
+	#foodieDescription .jumbotron p{
+
+		width: 300px;
+	}
+
+	#entries .jumbotron p{
+
+		width: 350px;
 	}
 
 }
